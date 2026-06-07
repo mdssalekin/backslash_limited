@@ -52,7 +52,7 @@
 
   /* WhatsApp Float */
   .whatsapp-float {
-    position: fixed; bottom: 32px; right: 32px;
+    position: fixed; bottom: 152px; right: 12px;
     width: 52px; height: 52px;
     background: #25d366;
     border-radius: 50%;
@@ -69,7 +69,9 @@
   nav {
     position: fixed; top: 0; left: 0; right: 0;
     z-index: 500;
-    padding: 22px 48px;
+    padding: 22px 30px;
+    /* padding-left: 22px;
+    padding-right: 22px; */
     display: flex; align-items: center; justify-content: space-between;
     background: linear-gradient(to bottom, rgba(10,10,10,0.95) 0%, transparent 100%);
     backdrop-filter: blur(4px);
